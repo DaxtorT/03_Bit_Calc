@@ -96,7 +96,6 @@ def num_check(question, low):
 # Calculates the # of bits for text (# of characters x 8)
 def text_bits():
 
-    print ()
     # Ask user for a string
     var_text = input("Enter some text: ")
 
@@ -178,6 +177,7 @@ while keep_going == "":
     # Ask the user for the file type
     data_type = user_choice()
     print("You chose", data_type)
+    print()
 
     # For integers, ask for integer
      # (Must be an integer more than or equal to 0)
